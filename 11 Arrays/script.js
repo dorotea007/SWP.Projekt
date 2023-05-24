@@ -17,4 +17,4 @@
     for (let i = 0; i < array.length; i++) {
         sum += array[i];
     }
-    connsole.log("Die Summe ist:", sum);
+    console.log("Die Summe ist:", sum);
