@@ -18,3 +18,21 @@
         sum += array[i];
     }
     console.log("Die Summe ist:", sum);
+
+    // Aufgabe 2 
+
+    /* Erstelle ein Array mit folgenden Strings:
+	"Susi", "Paula", "Hans"*/
+	let friends = ["Susi", "Paula", "Hans"];
+
+	/*Gib folgenden Satz aus:
+	"Meine Freunde sind Susi, Paula und Hans*/
+	console.log("Meine Freunde sind " + friends.join(", ") + ".");
+
+	/*Füge "Sepp" dazu. Nun soll die ausgabe folgendermaßen lauten:
+    "Meine Freunde sind Susi, Paula, Hans und Sepp"*/
+    friends.push("Sepp");
+    console.log("Meine Freunde sind " + friends.join(", ") + ".");
+
+
+
